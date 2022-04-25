@@ -71,9 +71,6 @@ const messageGenerator = () => {
 
   /*Despues de haber creado un conjunto de mensajes random, 
   se los envio a la version de cada uno de los satelites*/
-  const versionKenobi = randomValue[0];
-  const versionSkywalker = randomValue[1];
-  const versionSato = randomValue[2];
 
   kenobi[randomValue[0]] = '';
   skywalker[randomValue[1]] = '';
