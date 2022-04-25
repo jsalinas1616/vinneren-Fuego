@@ -14,7 +14,7 @@ const localizacionSatelites = [
 ];
 
 const GetDistance = (x, y) => {
-  const distances = parseFloat(Math.pow(x, 2) + Math.pow(y, 2));
+  const distances = parseFloat(Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2)));
   return distances;
 };
 
